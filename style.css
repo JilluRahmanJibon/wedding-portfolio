@@ -1,0 +1,73 @@
+.perfect-venue {
+    font-size: 5.5rem !important;
+}
+
+.slide-img {
+    height: 90vh !important;
+}
+
+#alert-box {
+    right: 15px;
+    width: 278px;
+    top: 35%;
+    height: 12%;
+}
+
+.chose-plan-btn {
+    background: #fdf4fa;
+    padding: 14px 80px;
+}
+
+.hot {
+    right: 20px;
+    background: red;
+    top: -10px;
+}
+
+
+
+
+/* media query */
+@media screen and (min-width: 992px) {
+    .hot-package {
+        top: -50px;
+    }
+
+}
+
+@media screen and (min-width: 763px) and (max-width: 990px) {
+    .perfect-venue {
+        font-size: 5.5rem !important;
+    }
+
+    #alert-box {
+        right: 15px;
+        width: 278px;
+        top: 10%;
+        height: 14%;
+    }
+}
+
+
+
+@media screen and (max-width: 762px) {
+    .slide-img {
+        height: 80vh !important;
+    }
+
+
+    .perfect-venue {
+        font-size: 3.5rem !important;
+    }
+
+    #alert-box {
+        right: 15px;
+        width: 278px;
+        top: 10%;
+        height: 14%;
+    }
+
+    .package {
+        margin: 0 80px;
+    }
+}
